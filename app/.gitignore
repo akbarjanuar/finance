@@ -43,3 +43,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# --- CUSTOM RULES UNTUK PUSH FOLDER LIB DAN ASSETS SAJA ---
+# Abaikan semua file/folder lain
+/*
+# Tapi jangan abaikan file .gitignore ini
+!.gitignore
+# Jangan abaikan folder lib dan assets
+!lib/
+!assets/
